@@ -20,7 +20,7 @@ reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Se
     }
     else{
         #Copy DisconnectScript from network location
-        $source = "%Path to Network share where disconnection script is located%"
+        $source = "%Path to Network share where disconnection script is located%" # <================================================ Edit me!
         $destination = $LocalAppdataPathNetExtender
         robocopy $source $destination /MIR
         Write-Host("DisconnectionScript has been copied in")
