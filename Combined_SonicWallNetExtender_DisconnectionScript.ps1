@@ -1,5 +1,4 @@
 ﻿#region function remediation
-
 function start-remediation {
 
     $LocalAppdataPathNetExtender = "$env:LOCALAPPDATA\SonicWall\NetExtender"
@@ -40,7 +39,6 @@ function start-remediation {
         }
     }
 }
-
 #endregion
 
 
